@@ -8,6 +8,7 @@
 Summary:	A Python 2 library for the Docker Engine API
 Summary(pl.UTF-8):	Biblioteka Pythona 2 do API silnika Docker
 Name:		python-%{module}
+# keep 4.x here for python2 support
 Version:	4.4.4
 Release:	3
 Epoch:		1
