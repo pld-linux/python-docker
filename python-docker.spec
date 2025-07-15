@@ -52,7 +52,7 @@ kontenery, zarządzać nimi, zarządzać Swarmami itp.
 
 %prep
 %setup -q -n %{pypi_name}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %py_build
